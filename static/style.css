@@ -1,0 +1,96 @@
+.container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden {
+    display:none;
+}
+
+.alert-msg {
+    height: 500px;
+    width: 500px;
+}
+
+.header > h1 {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > h2 {
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.responseMessage {
+    border: 2px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    height: 250px;
+    width: 250px;
+}
+.red {
+    background-color: #fa4949;
+}
+
+.blue {
+    background-color: #3636f8;
+}
+
+.result2 {
+    background-color: #fa4949;
+    text-align: center;
+}
+
+.result {
+    background-color: #34f034;
+}
+
+
+.responseMessage > h2 {
+    font-size: 2rem;
+}
+
+.myGuess{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form > input {
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.resetButton {
+    width: 20%;
+}
+
+.responseMessage {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
